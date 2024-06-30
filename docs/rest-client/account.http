@@ -1,0 +1,17 @@
+@baseURL = http://localhost:3333
+
+@module = accounts
+###
+
+POST {{baseURL}}/{{module}}
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john2@email.com",
+  "password": "123456"
+}
+
+###
+
+GET {{baseURL}}/{{module}}
