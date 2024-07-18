@@ -2,7 +2,6 @@
 
 @module = accounts
 ###
-
 POST {{baseURL}}/{{module}}
 Content-Type: application/json
 
