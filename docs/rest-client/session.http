@@ -3,7 +3,7 @@
 
 ###
 
-# @name authenticate_user
+# @name authenticate
 POST {{baseURL}}/{{module}}
 Content-Type: application/json
 

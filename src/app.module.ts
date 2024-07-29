@@ -6,6 +6,7 @@ import { ConfigModule } from '@nestjs/config'
 import { envSchema } from './env'
 import { AuthModule } from './auth/auth.module'
 import { AuthenticateController } from './controllers/authenticate.controller'
+import { CreateQuestionController } from './controllers/create-question.controller'
 
 @Module({
   imports: [
@@ -19,6 +20,7 @@ import { AuthenticateController } from './controllers/authenticate.controller'
     CreateAccountController,
     ListAccountsController,
     AuthenticateController,
+    CreateQuestionController,
   ],
   providers: [PrismaService],
 })
